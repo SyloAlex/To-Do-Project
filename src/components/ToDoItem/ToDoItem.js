@@ -1,5 +1,8 @@
 import React from 'react';
 import './ToDoItem.css';
+import greencheck from '../../img/green-check.png';
+import graycheck from '../../img/gray-check.png';
+import redcross from '../../img/red-x.png';
 
 function ToDoItem(props) {
     return (
@@ -7,12 +10,12 @@ function ToDoItem(props) {
             <figure>
                 {props.completed ? 
                     <img 
-                        src='../../img/green-check.png' 
+                        src={greencheck} 
                         alt='Check' className={`check ${props.completed && 'Icon-Active'}`}
                         onClick={props.onComplete}
                     /> 
                     : <img 
-                        src='../../img/gray-check.png' 
+                        src={graycheck} 
                         alt='Check' className={`check ${props.completed && 'Icon-Active'}`}
                         onClick={props.onComplete}
                     />
@@ -21,7 +24,7 @@ function ToDoItem(props) {
             <p className={`${props.completed && 'ToDo-Completed'}`}>{props.text}</p>
             <figure id='cross-container'>
                 <img 
-                    src='../../img/red-x.png' 
+                    src={redcross}
                     alt='X'
                     onClick={props.onDelete}
                 />
