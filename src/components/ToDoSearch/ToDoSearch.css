@@ -1,0 +1,16 @@
+#search-container {
+    text-align: center;
+    padding-bottom: 1.6rem;
+    border-bottom: 0.4rem solid #28468b;
+}
+
+#search-bar {
+    text-align: center;
+    border: none;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+input:focus {
+    outline: 0.3rem solid #8ab83f;
+}

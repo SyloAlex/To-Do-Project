@@ -1,0 +1,39 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 1.2rem;
+    margin: 1.2rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+li #cross-container {
+    position: relative;
+    bottom: 1.4rem;
+    left: 1.4rem;
+}
+
+li figure img {
+    height: 3rem;
+    cursor: pointer;
+}
+
+li p {
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+li .ToDo-Completed {
+    text-decoration: line-through;
+    text-decoration-style: double;
+}
+
+li .check {
+    border-radius: 50%;
+}
+
+li:hover {
+    background-color: #28468b;
+}
+

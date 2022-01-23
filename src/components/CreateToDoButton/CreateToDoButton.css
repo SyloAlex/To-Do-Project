@@ -1,0 +1,19 @@
+#button-container {
+    text-align: center;
+}
+
+.create-button {
+    width: 40%;
+    height: 3.5rem;
+    background-color: #8ab83f;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1.6rem;
+    z-index: 1;
+}
+
+button:hover {
+    background-color: #28468b;
+    border: 0.1rem solid white;
+}
