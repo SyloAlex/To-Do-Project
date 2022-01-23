@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/To-Do-Project/static/css/main.64e85029.css",
+    "main.js": "/To-Do-Project/static/js/main.a4fad2de.js",
+    "index.html": "/To-Do-Project/index.html",
+    "main.64e85029.css.map": "/To-Do-Project/static/css/main.64e85029.css.map",
+    "main.a4fad2de.js.map": "/To-Do-Project/static/js/main.a4fad2de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e85029.css",
+    "static/js/main.a4fad2de.js"
+  ]
+}
