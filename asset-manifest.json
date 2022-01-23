@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/To-Do-Project/static/css/main.64e85029.css",
-    "main.js": "/To-Do-Project/static/js/main.a4fad2de.js",
+    "main.js": "/To-Do-Project/static/js/main.5caa81bf.js",
+    "static/media/green-check.png": "/To-Do-Project/static/media/green-check.ac77a74badefdf17edf9.png",
+    "static/media/gray-check.png": "/To-Do-Project/static/media/gray-check.2656c261335b111f7bbe.png",
+    "static/media/red-x.png": "/To-Do-Project/static/media/red-x.5c7d2aad0b73ec7620ca.png",
     "index.html": "/To-Do-Project/index.html",
     "main.64e85029.css.map": "/To-Do-Project/static/css/main.64e85029.css.map",
-    "main.a4fad2de.js.map": "/To-Do-Project/static/js/main.a4fad2de.js.map"
+    "main.5caa81bf.js.map": "/To-Do-Project/static/js/main.5caa81bf.js.map"
   },
   "entrypoints": [
     "static/css/main.64e85029.css",
-    "static/js/main.a4fad2de.js"
+    "static/js/main.5caa81bf.js"
   ]
 }
