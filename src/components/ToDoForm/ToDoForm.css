@@ -3,7 +3,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 80%;
     padding: 2rem;
     border-radius: 1rem;
     background-color: #28468b;
@@ -50,8 +50,8 @@ button:hover {
     color: white;
 }
 
-@media (min-width:800px) {
+@media (min-width:600px) {
     form {
-        width: 360px;
+        width: 480px;
     }
 }

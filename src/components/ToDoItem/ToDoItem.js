@@ -24,6 +24,7 @@ function ToDoItem(props) {
             <p className={`${props.completed && 'ToDo-Completed'}`}>{props.text}</p>
             <figure id='cross-container'>
                 <img 
+                    className='close'
                     src={redcross}
                     alt='X'
                     onClick={props.onDelete}

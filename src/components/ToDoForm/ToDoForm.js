@@ -34,13 +34,13 @@ function ToDoForm() {
                     type="button"
                     onClick={onCancel}
                 >
-                    x
+                    Cancel
                 </button>
                 <button 
                     className="add-button"
                     type="submit"
                 >
-                    +
+                    Add
                 </button>
             </div>
         </form>

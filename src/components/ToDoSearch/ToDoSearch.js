@@ -11,7 +11,7 @@ function ToDoSearch(){
         <div id='search-container'>
             <input 
                 id="search-bar" 
-                placeholder='Write your To Do here!'
+                placeholder='Search your To-Do here!'
                 value={searchValue}
                 onChange={onSearchValue}
             />

@@ -9,17 +9,21 @@ li {
 
 li #cross-container {
     position: relative;
-    bottom: 1.4rem;
-    left: 1.4rem;
+    bottom: 1.3rem;
+    left: 0.7rem;
 }
 
-li figure img {
+li figure .check {
     height: 3rem;
     cursor: pointer;
 }
 
+li figure .close {
+    height: 1.8rem;
+    cursor: pointer;
+}
+
 li p {
-    font-size: 1.4rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
@@ -37,3 +41,8 @@ li:hover {
     background-color: #28468b;
 }
 
+@media (min-width:800px) {
+    li p {
+      font-size: 2rem;
+    }
+  }
