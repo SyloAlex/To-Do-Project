@@ -29,4 +29,8 @@ body {
   body {
     width: 720px;
   }
+
+  body #root .html-mask .change-container {
+    width: 680px;
+  }
 }

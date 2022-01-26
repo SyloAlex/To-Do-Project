@@ -1,6 +1,7 @@
 import React from "react";
 
 function useLocalStorage(itemName, initialValue) {
+  const [sincItem, setSincItem] = React.useState(true);
   //Loading and error state
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState(false);
@@ -23,11 +24,12 @@ function useLocalStorage(itemName, initialValue) {
 
         setItem(parsedItem);
         setLoading(false);
+        setSincItem(true)
       } catch(error) {
         setError(error);
       }
     }, 3000);
-  });
+  }, [sincItem]);
 
   //Function to save new changes of the state in local storage
   const saveItem = (newItem) => {
@@ -39,11 +41,17 @@ function useLocalStorage(itemName, initialValue) {
     }
   };
 
+  const sincNewItems = (newItem) => {
+    setLoading(true);
+    setSincItem(false)
+  }
+
   return {
     item,
     saveItem,
     loading,
-    error
+    error,
+    sincNewItems
   };
 };
 

@@ -3,7 +3,7 @@ import { useLocalStorage } from "./useLocalStorage";
 
 function useToDo() {
     //LocalStorage
-    const {item: todos, saveItem: saveTodos, loading, error} = useLocalStorage('toDos_v1', []);
+    const {item: todos, saveItem: saveTodos, sincNewItems: sincToDos, loading, error} = useLocalStorage('toDos_v1', []);
 
     //Ctates
     const [searchValue, setSearchValue] = React.useState('');
@@ -65,6 +65,7 @@ function useToDo() {
             deleteTodo,
             openModal,
             setOpenModal,
+            sincToDos
         };
 }
 

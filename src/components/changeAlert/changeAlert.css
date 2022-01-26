@@ -1,0 +1,45 @@
+body #root .html-mask {
+    background-color: rgba(77, 76, 76, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+body #root .html-mask .change-container {
+    text-align: center;
+    background-color: #292929;
+    width: 85%;
+    padding: 2rem 1.4rem;
+    border-radius: 0.8rem;
+    border: 2px solid white;
+}
+
+body #root .html-mask .change-container .change-paragraph{
+    margin-top: 2rem;
+}
+
+body #root .html-mask .change-container .change-button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 4rem;
+    width: 12rem;
+    background-color: #8ab83f;
+    color: white;
+    border: none;
+}
+
+body #root .html-mask .change-container .change-button:hover {
+    border: 1px solid white;
+}
+
+@media (min-width:400px) {
+    body #root .html-mask .change-container {
+      width: 340px;
+    }
+  }

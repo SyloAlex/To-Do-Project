@@ -9,6 +9,7 @@ import { ToDoMessage } from "../components/ToDoMessage/ToDoMessage";
 import { Modal } from '../Modal/Modal'
 import { ToDoForm } from "../components/ToDoForm/ToDoForm";
 import { ToDoHeader } from '../components/ToDoHeader/ToDoHeader'
+import { ChangeAlert } from '../components/changeAlert/changeAlert';
 import './App.css';
 
 
@@ -26,7 +27,8 @@ function App() {
     totalTodos, 
     completedTodos,
     searchValue, 
-    setSearchValue
+    setSearchValue,
+    sincToDos,
   } = useToDo();
 
   return(
@@ -82,6 +84,7 @@ function App() {
             </Modal>
         )}
         <CreateToDoButton setOpenModal={setOpenModal}/>
+        <ChangeAlert sinc={sincToDos}/>
     </React.Fragment>
 );
 };
