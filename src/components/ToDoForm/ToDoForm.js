@@ -1,9 +1,8 @@
 import React from "react";
-import { ToDoContext } from "../../ToDoContext/ToDoContext";
+import { ToDoContext } from "../../App/UseToDo";
 import './ToDoForm.css';
 
-function ToDoForm() {
-    const { addTodo, setOpenModal } = React.useContext(ToDoContext)
+function ToDoForm({ addTodo, setOpenModal }) {
     const [inputValue, setInputValue] = React.useState('');
 
     const onCancel = () => {

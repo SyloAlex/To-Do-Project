@@ -1,9 +1,7 @@
 import React from "react";
-import { ToDoContext } from "../../ToDoContext/ToDoContext";
 import './NewToDoNotice.css';
 
-function ToDoMessage() {
-    const { loading, error } = React.useContext(ToDoContext);
+function ToDoMessage({ loading, error }) {
     return(
         <div className="new-to-do">
             {(error && (!!loading || !loading)) && <p>{error}</p>}

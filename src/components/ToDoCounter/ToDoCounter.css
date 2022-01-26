@@ -2,4 +2,9 @@
     font-size: 1.6rem;
     text-align: center;
     margin-bottom: 1rem;
+    color: white;
+}
+
+.counter-title--loading {
+    opacity: 25%;
 }

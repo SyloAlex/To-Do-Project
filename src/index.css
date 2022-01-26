@@ -20,13 +20,6 @@ body {
   color: white;
 }
 
-body header {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-bottom: 2.4rem;
-  color: #8ab83f;
-}
-
 #root {
   border: 0.4rem solid #28468b;
   padding: 1.6rem 0;
