@@ -18,11 +18,11 @@ function useToDo() {
     if (!searchValue.length >= 1) {
     searchedTodos = todos;
     } else {
-    searchedTodos = todos.filter(todo => {
-        const todoText = todo.text.toLowerCase();
-        const searchText = searchValue.toLowerCase();
-        return todoText.includes(searchText);
-    })
+        searchedTodos = todos.filter(todo => {
+            const todoText = todo.text.toLowerCase();
+            const searchText = searchValue.toLowerCase();
+            return todoText.includes(searchText);
+        })
     };
 
     //Add new To-Do's
